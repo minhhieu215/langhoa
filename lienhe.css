@@ -1,0 +1,72 @@
+h1{
+    
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: 38px;
+    color: #4b5f6b;
+    line-height: 1.4;
+}
+p{
+    color: #555;
+    padding-top: 20px;
+}
+.header__thongtin >a:nth-child(1) {
+    background-color: white;
+    color: black;
+}
+.header__thongtin >a:nth-child(1):hover {
+    background-color :#dd1f1f;
+    color: white;
+}
+.header__thongtin >a:nth-child(3){
+    background-color :#dd1f1f;
+    color: white;
+}
+.item h4:hover,.moveTo:hover{
+    color:#dd1f1f;
+    cursor:pointer;
+}
+#form_1{
+    margin-left: 20px;
+}
+.input{
+    padding:5px 10px;
+    width: 40%;
+    border:solid 1px lightgray;
+    outline: none;
+
+}
+.submitBtn{
+
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+.submitBtn:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+.form_file span{
+    border: solid 1px lightgray;
+padding: 2px 10px;
+border-radius: 5px;
+}
+#form_1{
+    margin: 0 20px;
+}
+#form_1 >div{
+    margin-bottom: 20px;
+    line-height: 1.4;
+}
+.messageError{
+    color: red;
+}
+.wide_input {
+    padding-bottom: 100px;
+}
+@media screen and (max-width:375px){
+    .input{
+        width: 100%;
+    }
+}

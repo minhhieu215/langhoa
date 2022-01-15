@@ -1,0 +1,133 @@
+.item_intro {
+    width: 80%;
+    display: flex;
+    margin-top: 20px;
+    height: fit-content;
+}
+
+.item_intro_IMG {
+    margin-right: 20px;
+    height: 60%;
+}
+
+.item_intro_IMG img {
+    height: 100%;
+    cursor: pointer;
+    max-width: 400px;
+}
+
+.btnGiohang {
+    padding: 15px 100px;
+    background-color: red;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+.btnGiohang:hover {
+    cursor: pointer;
+}
+
+.item_intro_sideImg {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    gap: 1rem;
+}
+
+.item_intro_sideImg img {
+    object-fit: cover;
+    width: 100px;
+    margin-top: 20px;
+    height: 100px;
+    /* margin-right: 20px; */
+    cursor: pointer;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.item_intro_text {
+    margin-right: 20px;
+}
+
+
+/* IPAD */
+
+.des_ipad_category {
+    display: flex;
+    flex-direction: column;
+}
+
+.item_intro_text select,
+.item_intro_text input {
+    border: solid 1px lightgray;
+    margin-left: 60px;
+    padding: 5px 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.hang {
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+
+.hang .ti-close {
+    position: absolute;
+    right: 0 !important;
+    color: black;
+    left: unset;
+}
+
+.hang>.ti-close:before {
+    content: "\e646";
+    right: 20px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.hang>.ti-close:before:hover {
+    color: #d3d3d3;
+}
+
+.subnav_shop .ti-close {
+    position: absolute;
+    left: 0;
+}
+
+.hang img {
+    width: 30% !important;
+    border: double 1px;
+    margin-right: 20px;
+    object-position: top;
+    object-fit: cover;
+}
+
+@media screen and (max-width:400px) {
+    .grid {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .item_intro_IMG {
+        margin-right: 0;
+        height: 60%;
+        width: 100%;
+    }
+    .item_intro {
+        width: 100%;
+    }
+    .item_intro {
+        flex-direction: column;
+        overflow: hidden;
+    }
+    .item_search {
+        width: 80%;
+    }
+}
